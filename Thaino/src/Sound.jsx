@@ -37,7 +37,7 @@ function Record() {
   };
 
   return (
-    <div className="recorder">
+    <div>
       <button className="recordb" onClick={isRecording ? stopRecording : startRecording}>
         {isRecording ? 'Stop Recording' : 'Start Recording'}
       </button>

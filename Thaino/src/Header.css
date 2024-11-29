@@ -32,6 +32,7 @@
     font-size: 1.5rem;
     color: white;
     margin-right: 20px;
+    text-align: center;
 }
 
 .nav {
@@ -62,5 +63,43 @@
 .bi {
     fill: currentColor;
 }
+
+.header {
+    background-color: #333; /* or any color you'd prefer */
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;     /* Centers the content vertically */
+    position: relative;
+}
+
+.title {
+    font-size: 2rem; /* Adjust size as needed */
+    color: white;
+    text-align: center;
+    flex-grow: 1; /* Ensures the title takes up the available space */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: #f0f0f0; /* Optional: change color on hover */
+}
+
 
 
