@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to bottom, #d2b48c, #f5deb3, #fffaf0); /* Gradient through body */
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .pic {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 20px;
+  }
+  
+  .h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+  }
+  
+  .main {
+    background-color: transparent;
+  }
+  
+  .pic2 {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    align-items: end;
+    justify-content: end;
+  }
+  
+  .para2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+  }
+  
+  .picture {
+    display: inline-block;
+    right: 0;
+  }
+  
+  .s {
+    display: inline-block;
+  }

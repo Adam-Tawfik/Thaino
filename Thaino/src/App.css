@@ -1,9 +1,29 @@
-.background {
-  background-color: #01949a;
-  color: #e5ddc8;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(206, 101, 101, 0.1);
-  margin-bottom: 20px;
-}
-
+body {
+    background-color: #01949a;
+    color: #e5ddc8;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #e5ddc8;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
