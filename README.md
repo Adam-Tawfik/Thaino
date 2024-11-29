@@ -1,2 +1,15 @@
-# FraserHacks2024
- This is where all the Fraser Hacks 2024 work will take place
+# FraserHacks 2024
+
+Linus Vincent
+
+## Installation
+
+None
+
+## Contributing
+
+None
+
+## License
+
+[MIT](LICENSE)
