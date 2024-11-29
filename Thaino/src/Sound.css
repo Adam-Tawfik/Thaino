@@ -9,23 +9,40 @@
     right: 0;
     margin: 10px;
     bottom: 0;
-
-}
-
-.sigma1{
+  }
+  
+  .sigma1 {
     display: flex;
     width: 100%;
     justify-content: end;
     align-content: end;
-}
-
-.recorder{
+  }
+  
+  .recorder {
     position: fixed;
-    display: inline-block; 
+    display: inline-block;
     width: 100%;
     justify-content: end;
     align-items: center;
-    display:flex; 
+    display: flex;
     justify-content: center;
-    bottom:0;
-}
+    bottom: 0;
+  }
+  
+  .summary_text {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;  /* Center horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    position: absolute;  /* Change to absolute */
+    top: 10%;  /* Add space from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;  /* Ensure it appears above other elements */
+  }
+  

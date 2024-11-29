@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import SpeechToText from './SpeechToText';
+import './Sound.css';
 
 function Record() {
   const [isRecording, setIsRecording] = useState(false);
@@ -18,7 +19,6 @@ function Record() {
     };
 
     mediaRecorderRef.current.onstop = () => {
-    
       setAudioBlob(new Blob(audioChunksRef.current, { type: 'audio/mp3' }));
       if (audioBlob) {
         setAudioUrl(URL.createObjectURL(audioBlob));
@@ -37,14 +37,13 @@ function Record() {
   };
 
   return (
-    <div>
-      <button onClick={isRecording ? stopRecording : startRecording}>
+    <div className="recorder">
+      <button className="recordb" onClick={isRecording ? stopRecording : startRecording}>
         {isRecording ? 'Stop Recording' : 'Start Recording'}
       </button>
 
       {audioUrl && (
-        <div>
-          <h3>Recorded Audio</h3>
+        <div className="sigma1">
           <audio controls src={audioUrl}></audio>
           {audioBlob && (
             <SpeechToText audioBlob={audioBlob} />

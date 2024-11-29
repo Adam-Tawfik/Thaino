@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import './Sound.css';
 function SpeechToText({ audioBlob }) {
   const [text, setText] = useState("Transcribing...");
 
@@ -83,7 +83,7 @@ function SpeechToText({ audioBlob }) {
     fetchTranscription();
   }, [audioBlob]);
 
-  return <p>{text}</p>;
+  return <p className="summary_text">{text}</p>;
 }
 
 export default SpeechToText;
