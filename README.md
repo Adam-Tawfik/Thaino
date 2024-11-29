@@ -8,7 +8,10 @@ None
 
 ## Contributing
 
-None
+Adam Tawfik
+Manav Choudhary
+Rithwik Chawla
+Janarth Muhunthan
 
 ## License
 
