@@ -1,24 +1,25 @@
 .header {
-    font-family: Arial, sans-serif;
-    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
     background-color: #004369;
     color: #e5ddc8;
+    text-align: left;
+    margin: 5px;
     
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
   }
   
   .header h1 {
     margin: 0;
     font-size: 2em;
   }
-  .header {
-    background-color: #333; /* Adjust to your preferred background color */
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-}
 
 .header-container {
     display: flex;
