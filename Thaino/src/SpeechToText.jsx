@@ -5,8 +5,9 @@ import OpenAI from "openai";
 
 
 async function main() {
-  const transcription = await openai.audio.transcriptions.create({
-    file: fs.createReadStream("/path/to/file/audio.mp3"),
+    const openai = new OpenAI();
+    const transcription = await openai.audio.transcriptions.create({
+    zfile: fs.createReadStream("/path/to/file/audio.mp3"),
     model: "whisper-1",
   });
 
