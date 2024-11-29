@@ -1,4 +1,3 @@
-import { Speech } from 'openai/resources/audio/speech.mjs';
 import React, { useState, useRef } from 'react';
 import SpeechToText from './SpeechToText';
 
