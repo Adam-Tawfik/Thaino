@@ -1,10 +1,7 @@
-import Header from './Header.jsx';
+import Header from './header.jsx';
 function App(){
-  return (
-    <className=>
-        
+  return (        
         <Header />
-    </>
   );
 }
 

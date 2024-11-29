@@ -3,7 +3,7 @@
     text-align: left;
     background-color: #004369;
     color: #e5ddc8;
-    padding: 20px;
+    
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -13,3 +13,51 @@
     margin: 0;
     font-size: 2em;
   }
+  .header {
+    background-color: #333; /* Adjust to your preferred background color */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 20px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-link:hover {
+    color: #ddd; /* Adjust for hover effect */
+}
+
+.bi {
+    fill: currentColor;
+}
