@@ -1,12 +1,16 @@
 import Header from './Header.jsx';
 import Record from './Sound.jsx';
+import Data from './data.jsx'
+
 function App(){
   return ( 
     <>       
-        <Header />
         <Record/>
+        <Header />
+        <Data />
     </>
   );
 }
 
 export default App;
+

@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,8 +10,74 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   </head>
+  <style>
+    body{
+      background: linear-gradient(to bottom, #d2b48c, #f5deb3, #fffaf0); /* Gradient through body */
+
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+    }
+    .pic {
+      max-width: 200px;
+      max-height: 200px;
+      margin-right: 20px;
+    }
+    .h2 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400; 
+      display: inline-block;
+    }
+    .main{
+      background-color: transparent
+    }
+
+    .pic2{
+      display: flex;
+      max-width: 200px;
+      max-height:200p; 
+      align-items: end;
+      justify-content: end;
+
+   
+    }
+    .para2 {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400; 
+      display: inline-block;
+    }
+
+    .picture{
+      display: inline-block;
+      right: 0;
+    }
+
+    .s{
+      display: inline-block;
+    }
+  </style>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class = "main">
+      <div class="container ">
+        <script type="module" src="/src/main.jsx"></script>
+      </div>
+      <div class="content">
+        <img class="pic" src="public/brain.png" alt="image of brain">
+        <h4 class="h2">Thaino is an AI software that specializes in helping students become better learners and students. Thaino aims to better student grades and help students to have a better experience in high school and beyond.</h4>
+    </div>
+    
+    <div class="reverse-content">
+      <div class = "picture">
+        <img class="pic2" src="public/fun.png" alt="A girl having fun">
+      </div>
+      <div class = "s">
+        <h4 class="para2">Thaino aims to improve student attention spans as well as make school more interesting.</h4>
+      </div>
+    </div>
+    
+    </div>
   </body>
 </html>

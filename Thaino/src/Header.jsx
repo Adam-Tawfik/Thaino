@@ -15,7 +15,6 @@ function Header() {
                             >
                                 <use xlinkHref="#home"></use>
                             </svg>
-                            Home
                         </a>
                     </li>
                     <li>
@@ -27,7 +26,7 @@ function Header() {
                             >
                                 <use xlinkHref="#speedometer2"></use>
                             </svg>
-                            Dashboard
+                            
                         </a>
                     </li>
                     <li>
@@ -39,7 +38,7 @@ function Header() {
                             >
                                 <use xlinkHref="#table"></use>
                             </svg>
-                            Orders
+                            Home
                         </a>
                     </li>
                     <li>
@@ -51,7 +50,7 @@ function Header() {
                             >
                                 <use xlinkHref="#grid"></use>
                             </svg>
-                            Products
+                            Summary 
                         </a>
                     </li>
                     <li>
@@ -63,7 +62,7 @@ function Header() {
                             >
                                 <use xlinkHref="#people-circle"></use>
                             </svg>
-                            Customers
+                            About
                         </a>
                     </li>
                 </ul>

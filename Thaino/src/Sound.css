@@ -1,0 +1,31 @@
+.recordb {
+    height: 5.9vh;
+    width: 200px;
+    justify-content: center;
+    background-color: rgb(209, 163, 104);
+    border: none;
+    border-radius: 20px;
+    position: fixed;
+    right: 0;
+    margin: 10px;
+    bottom: 0;
+
+}
+
+.sigma1{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-content: end;
+}
+
+.recorder{
+    position: fixed;
+    display: inline-block; 
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    display:flex; 
+    justify-content: center;
+    bottom:0;
+}
